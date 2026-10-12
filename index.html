@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Velo — велосипеды для города, гор, спорта и путешествий в Бишкеке.">
+  <title>Velo — магазин велосипедов</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <a href="#home" class="logo">velo<span>.</span></a>
+
+    <nav class="nav" aria-label="Главная навигация">
+      <a href="#catalog">Каталог</a>
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">СВОБОДА НА ДВУХ КОЛЁСАХ</p>
+
+        <h1>
+          Твой город.<br>
+          Твой ритм.<br>
+          <span>Твой велосипед.</span>
+        </h1>
+
+        <p class="hero-text">
+          Велосипеды для ежедневных поездок,
+          прогулок и новых открытий.
+        </p>
+
+        <a href="#catalog" class="link-button">
+          Смотреть каталог →
+        </a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1100&q=85"
+          alt="Современный велосипед"
+          fetchpriority="high"
+        >
+      </div>
+    </section>
+
+    <!-- Каталог -->
+    <section class="section" id="catalog">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">НАШ ВЫБОР</p>
+          <h2>Выбери свой велосипед</h2>
+        </div>
+
+        <p class="muted">
+          Для города, гор, спорта и путешествий.
+        </p>
+      </div>
+
+      <div class="products">
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=700&q=80"
+            alt="Городской велосипед City One"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>City One</h3>
+              <p>Для городских поездок</p>
+            </div>
+            <span class="price">35 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=700&q=80"
+            alt="Горный велосипед Mountain Pro"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Mountain Pro</h3>
+              <p>Для гор и бездорожья</p>
+            </div>
+            <span class="price">48 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=700&q=80"
+            alt="Спортивный велосипед Speed Air"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Speed Air</h3>
+              <p>Для скорости и дистанций</p>
+            </div>
+            <span class="price">56 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=700&q=80"
+            alt="Туристический велосипед Travel Tour"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Travel Tour</h3>
+              <p>Для дальних путешествий</p>
+            </div>
+            <span class="price">44 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=700&q=80"
+            alt="Классический велосипед Classic Retro"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Classic Retro</h3>
+              <p>Классика на каждый день</p>
+            </div>
+            <span class="price">32 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=700&q=80"
+            alt="Велосипед для трейлов Trail Expert"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Trail Expert</h3>
+              <p>Для сложных маршрутов</p>
+            </div>
+            <span class="price">62 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=700&q=80"
+            alt="Шоссейный велосипед Road Racer"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Road Racer</h3>
+              <p>Для шоссе и тренировок</p>
+            </div>
+            <span class="price">59 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=700&q=80"
+            alt="Универсальный велосипед Urban Flex"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Urban Flex</h3>
+              <p>Для города и парков</p>
+            </div>
+            <span class="price">38 000 сом</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=700&q=80"
+            alt="Велосипед для прогулок Active Ride"
+            loading="lazy"
+          >
+          <div class="product-info">
+            <div>
+              <h3>Active Ride</h3>
+              <p>Для активного отдыха</p>
+            </div>
+            <span class="price">41 000 сом</span>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="catalog-note">
+        Цены и модели указаны для примера.
+        Уточняйте наличие и стоимость по телефону.
+      </p>
+    </section>
+
+    <!-- О нас -->
+    <section class="about section" id="about">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=1000&q=85"
+          alt="Велосипед для активного отдыха"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">О НАС</p>
+
+        <h2>
+          Больше движения.<br>
+          Меньше суеты.
+        </h2>
+
+        <p>
+          Velo — магазин для тех, кто ценит свободу,
+          комфорт и активный образ жизни.
+        </p>
+
+        <p>
+          Помогаем подобрать велосипед под твои задачи,
+          рассказываем об особенностях моделей и заботимся
+          о том, чтобы каждая поездка приносила удовольствие.
+        </p>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">НАША ПОМОЩЬ</p>
+          <h2>Не только продажа</h2>
+        </div>
+      </div>
+
+      <div class="services">
+
+        <article class="service">
+          <span class="service-number">01</span>
+          <h3>Подбор велосипеда</h3>
+          <p>
+            Поможем выбрать модель по росту,
+            стилю езды и бюджету.
+          </p>
+        </article>
+
+        <article class="service">
+          <span class="service-number">02</span>
+          <h3>Настройка</h3>
+          <p>
+            Подготовим велосипед к комфортной
+            и безопасной поездке.
+          </p>
+        </article>
+
+        <article class="service">
+          <span class="service-number">03</span>
+          <h3>Обслуживание</h3>
+          <p>
+            Поможем поддерживать велосипед
+            в хорошем состоянии.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contact-section" id="contacts">
+      <div class="contact-content">
+        <p class="eyebrow">БУДЕМ НА СВЯЗИ</p>
+
+        <h2>Готов к новой поездке?</h2>
+
+        <p>
+          Напиши или позвони нам,
+          и мы поможем подобрать велосипед.
+        </p>
+      </div>
+
+      <div class="contact-info">
+        <a href="tel:+996507229005">
+          +996 507 229 005
+        </a>
+
+        <a href="mailto:hello@velo.kg">
+          hello@velo.kg
+        </a>
+
+        <p>Бишкек, Кыргызстан</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <a href="#home" class="logo">velo<span>.</span></a>
+
+    <p>
+      © <span id="year"></span> Velo. Создано для движения.
+    </p>
+  </footer>
+
+</body>
+</html>
